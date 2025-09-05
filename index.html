@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <label class="pop"><img class="hticon" src="liplip.png">HTML</label>
+      <textarea id="html" onkeyup="run()"></textarea>
+      <label class="pop"><img class="hticon1" src="opop.png">CSS</label>
+      <textarea id="css" onkeyup="run()"></textarea>
+      <label class="pop"><img class="hticon1" src="akl.png">JavaScript</label>
+      <textarea id="js" onkeyup="run()"> </textarea>
+    </div>
+    <div class="right">
+      <div class="lio"><img class="hticon1" src="Play.png">Output</div>
+      <iframe id="chipi"></iframe>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
